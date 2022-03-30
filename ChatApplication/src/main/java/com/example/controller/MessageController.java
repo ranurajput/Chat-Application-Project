@@ -1,7 +1,7 @@
 package com.example.controller;
 
-import com.knoldus.SpringBoot.model.MessageModel;
-import com.knoldus.SpringBoot.storage.UserStorage;
+import com.example.ChatApplication.model.MessageModel;
+import com.example.ChatApplication.storage.UserStorage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
