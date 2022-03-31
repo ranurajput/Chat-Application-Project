@@ -1,12 +1,15 @@
-package com.example.controller;
+package com.knoldus.controller;
 
-import com.example.ChatApplication.storage.UserStorage;
+import com.knoldus.ChatApplication.storage.UserStorage;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Set;
+/**
+ * @ author Ranu Rajput
+ */
 
 @RestController
 public class UserController {
