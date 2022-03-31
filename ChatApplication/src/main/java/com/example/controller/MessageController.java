@@ -1,12 +1,16 @@
-package com.example.controller;
+package com.knoldus.controller;
 
-import com.example.ChatApplication.model.MessageModel;
-import com.example.ChatApplication.storage.UserStorage;
+import com.knoldus.ChatApplication.model.MessageModel;
+import com.knoldus.ChatApplication.storage.UserStorage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @ author Ranu Rajput
+ */
 
 @RestController
 public class MessageController {
